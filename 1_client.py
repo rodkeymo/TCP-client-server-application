@@ -10,6 +10,7 @@ clientSocket.connect((serverName, serverPort))
 file_name = input("File name: ")
 
 try:
+   
     t_start = time.time()
     f0 = open(file_name, 'rb')
     data = f0.read()
